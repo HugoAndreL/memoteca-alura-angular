@@ -1,0 +1,14 @@
+                       <!-- Interpolação + Property binding    | Property binding -->
+<div class="pensamento {{ pensamento.modelo }} ff-roboto-mono" [ngClass]="larguraPensamento">
+  <img src="../../../../assets/imagens/{{ pensamento.modelo }}.png" alt="Aspas coloridas">
+  <p class="conteudo">{{ pensamento.conteudo }}</p>
+  <p class="conteudo"><b>{{ pensamento.autoria }}</b></p>
+  <div class="acoes">
+    <button class="botao-editar" routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}">
+      <img src="../../../../assets/imagens/icone-editar.png" alt="Icone de Editar">
+    </button>
+    <button class="botao-excluir" routerLink="/pensamentos/excluirPensamento/{{ pensamento.id }}">
+      <img src="../../../../assets/imagens/icone-excluir.png" alt="Icone de Excluir">
+    </button>
+  </div>
+</div>

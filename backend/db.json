@@ -1,0 +1,28 @@
+{
+  "pensamentos": [
+    {
+      "conteudo": "[  ]=\"\"",
+      "autoria": "Property binding",
+      "modelo": "modelo1",
+      "id": 1
+    },
+    {
+      "conteudo": "(  )=\"função()\"",
+      "autoria": "Event binding",
+      "modelo": "modelo1",
+      "id": 2
+    },
+    {
+      "conteudo": "[(  )]=\"alguma variavel que complete o conteudo\"",
+      "autoria": "Two-way data binding",
+      "modelo": "modelo1",
+      "id": 3
+    },
+    {
+      "conteudo": "{{ alguma variavel que complete o conteudo }}",
+      "autoria": "Interpolação",
+      "modelo": "modelo1",
+      "id": 4
+    }
+  ]
+}
