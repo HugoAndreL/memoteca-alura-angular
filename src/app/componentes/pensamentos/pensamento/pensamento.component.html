@@ -1,9 +1,11 @@
-                       <!-- Interpolação + Property binding    | Property binding -->
 <div class="pensamento {{ pensamento.modelo }} ff-roboto-mono" [ngClass]="larguraPensamento">
   <img src="../../../../assets/imagens/{{ pensamento.modelo }}.png" alt="Aspas coloridas">
   <p class="conteudo">{{ pensamento.conteudo }}</p>
   <p class="conteudo"><b>{{ pensamento.autoria }}</b></p>
   <div class="acoes">
+    <button class="botao-favorito" (click)="atualizarFavoritos()">
+      <img src="/assets/imagens/icone-favorito-{{ mudarIconeFavorito() }}.png" alt="Icone favorito {{ mudarIconeFavorito() }}">
+    </button>
     <button class="botao-editar" routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}">
       <img src="../../../../assets/imagens/icone-editar.png" alt="Icone de Editar">
     </button>

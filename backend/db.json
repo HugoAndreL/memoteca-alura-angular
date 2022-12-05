@@ -1,28 +1,53 @@
 {
   "pensamentos": [
     {
-      "conteudo": "[  ]=\"\"",
+      "id": 1,
+      "conteudo": "[ Propriedades exclusivas do Angular criadas por você ]=\"\"",
       "autoria": "Property binding",
       "modelo": "modelo1",
-      "id": 1
+      "favorito": false
     },
     {
-      "conteudo": "(  )=\"função()\"",
+      "conteudo": "( Evento )=\"Função()\"",
       "autoria": "Event binding",
       "modelo": "modelo1",
-      "id": 2
+      "id": 2,
+      "favorito": false
     },
     {
-      "conteudo": "[(  )]=\"alguma variavel que complete o conteudo\"",
+      "conteudo": "[( Alguma propriedade do Angular )]=\"Alguma valor que exista em dois arquivos sem a necessidade de importar\"",
       "autoria": "Two-way data binding",
       "modelo": "modelo1",
-      "id": 3
+      "id": 3,
+      "favorito": false
     },
     {
-      "conteudo": "{{ alguma variavel que complete o conteudo }}",
+      "id": 4,
+      "conteudo": "{{ Alguma variavel que complete o conteudo ou uma funçao que retorna uma string }}",
       "autoria": "Interpolação",
       "modelo": "modelo1",
-      "id": 4
+      "favorito": false
+    },
+    {
+      "conteudo": "Mais Informações no site: https://angular.io/docs",
+      "autoria": "Angular IO",
+      "modelo": "modelo1",
+      "id": 5,
+      "favorito": false
+    },
+    {
+      "conteudo": "Relsover o bug não consegue? Esfriar a cabeça você deve.",
+      "autoria": "Mestre Yoda",
+      "modelo": "modelo3",
+      "id": 6,
+      "favorito": true
+    },
+    {
+      "conteudo": "JWT, Swagger, RTC, SAS/ETL: Aprender; SQL, C# .NET, Angular IO: Aprendidos",
+      "autoria": "André",
+      "modelo": "modelo2",
+      "id": 7,
+      "favorito": true
     }
   ]
 }

@@ -4,12 +4,16 @@
     <button class="botao" routerLink="/criarPensamento">Adicionar pensamento</button>
   </header>
   <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamento">
+    <div class="buscar-pensamentos">
+      <input type="search" class="filtro" placeholder="O que você procura" autofocus [(ngModel)]="filtro" (keyup)="pesquisarPensamentos()"/>
+      <img src="/assets/imagens/lupa.png" alt="Lupa Azul">
+    </div>
     <div *ngFor="let pensamento of listaPensamentos">
-                      <!-- Property binding -->
       <app-pensamento [pensamento]="pensamento"></app-pensamento>
     </div>
   </div>
 </section>
+<app-botao-carregar-mais [more]="more" (click)="carregarMaisPensamentos()"></app-botao-carregar-mais>
 <ng-template #semPensamento>
   <div class="ff-inter sem-pensamentos">
     <p>Ainda não há pensamentos cadastrados</p>
