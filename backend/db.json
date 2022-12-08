@@ -41,13 +41,6 @@
       "modelo": "modelo3",
       "id": 6,
       "favorito": true
-    },
-    {
-      "conteudo": "JWT, Swagger, RTC, SAS/ETL: Aprender; SQL, C# .NET, Angular IO: Aprendidos",
-      "autoria": "André",
-      "modelo": "modelo2",
-      "id": 7,
-      "favorito": true
     }
   ]
 }
